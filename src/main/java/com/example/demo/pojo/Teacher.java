@@ -4,26 +4,25 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 /**
  * @Author:hxx
  * @Description:
- * @Date:Create in 14:29 2020/4/11
+ * @Date:Create in 14:45 2020/4/11
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Student {
+public class Teacher {
 
-    private long id;
+    private Long id;
 
     private String name;
 
     private Integer age;
 
-    private String sex;
-    /**
-     * 所在班级ID
-     */
-    private Long clazzId;
+    private Boolean headTeacher;
 
+    private List<Student> students;
 }

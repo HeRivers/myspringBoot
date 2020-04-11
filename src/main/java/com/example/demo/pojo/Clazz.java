@@ -7,23 +7,15 @@ import lombok.NoArgsConstructor;
 /**
  * @Author:hxx
  * @Description:
- * @Date:Create in 14:29 2020/4/11
+ * @Date:Create in 14:51 2020/4/11
+ * 班级名称
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Student {
+public class Clazz {
 
-    private long id;
+    private Long id;
 
     private String name;
-
-    private Integer age;
-
-    private String sex;
-    /**
-     * 所在班级ID
-     */
-    private Long clazzId;
-
 }

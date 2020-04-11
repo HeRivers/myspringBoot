@@ -1,3 +1,6 @@
+mybatis.config-location: classpath:mybatis/mybatis-config.xml
+mybatis.mapepr-location: classpath:mybatis/mapper/*.xml
+
 spring:
   datasource:
     username: root
@@ -28,3 +31,6 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+
+
